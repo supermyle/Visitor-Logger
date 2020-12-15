@@ -48,6 +48,7 @@ def write_json(server_root, unique_users):
 
 	print("Last updated", dt_string)
 
+	#Create python dictionary to be dumped into json
 	json_data = { 
 		"visitors" : unique_users, 
 		"lastUpdate" : dt_string
