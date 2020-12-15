@@ -48,17 +48,14 @@ def write_json(server_root, unique_users):
 
 	print("Last updated", dt_string)
 
-	#Create JSON with visitor and time data
-	data = {}
-	data['visitorData'] = []
-	data['visitorData'].append({
-		'visitors': unique_users,
-		'lastUpdate': dt_string
-	})
+	json_data = { 
+		"visitors" : unique_users, 
+		"lastUpdate" : dt_string
+	} 
 
 	json_file = server_root + "visitors.json"
 	with open(json_file, 'w') as outfile:
-		json.dump(data, outfile)
+		json.dump(json_data, outfile)
 
 #Return count of users
 def usercount(log_dir):
