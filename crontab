@@ -8,4 +8,4 @@
 # │ │ │ │ │
 # * * * * *  command_to_execute
 
-*/10 * * * * cd ~/visitor_logger/ && ./visitor_logger.py
+* * * * * cd ~/visitor_logger/ && ./visitor_logger.py

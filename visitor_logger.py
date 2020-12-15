@@ -87,7 +87,7 @@ def unzip_logs(log_dir):
 def main():
 	print("Launching visitor_logger.py") 
 	access_log_path = '/var/log/apache2/'
-	server_root = '/var/www/html/'
+	server_root = '/var/www/html/megadatagames/public/'
 	unzip_logs(access_log_path)
 	unique_users = usercount(access_log_path)
 
