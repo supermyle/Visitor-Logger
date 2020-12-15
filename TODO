@@ -5,5 +5,5 @@ TODO
 2. Learn how to run that script on a cron job scheduled with crontab (check)
 3. Generate visitors.json file from data in the access log(s) (check)
 4. Log amount of users and time python script was executed in stats.log file for server admin (check)
-5. HTML and CSS on https://megadatagames.com to hold unique visitors data (in progress)
-6. Use AJAX to read data from visitors.json to display unique visitors on front of the website (in progress)
+5. HTML and CSS on https://megadatagames.com to hold unique visitors data (check)
+6. Use AJAX to read data from visitors.json to display unique visitors on front of the website (check)
