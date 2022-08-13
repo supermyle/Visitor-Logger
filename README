@@ -5,7 +5,7 @@ Author @Supermyle
 
 Project Description: This project uses python to scan access log(s) on a cron job but can also
 be invoked manually anytime. The data gathered from the access log(s) are put into a JSON file 
-on the server root to be scanned with AJAX by the website https://megadatagames.com for the purpose
+on the server root to be scanned with AJAX by the server this script runs for the purpose
 of displaying a count of visitors on the front page and the time that count was last updated.
 Using crontab the default settings are to run visitor_logger.py every 10 minutes.
 The python program will also create a stats.log file in the program's current directory if it 
